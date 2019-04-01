@@ -63,4 +63,65 @@ $(function(){
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='電腦輔助設計與實習.html'>電腦輔助設計與實習</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a></li></ul><li><a href='協同產品設計實習.html'>協同產品設計實習</a><ul><li><a href='第一周.html'>第一周</a><li><a href='第二周.html'>第二周</a><li><a href='第三周.html'>第三周</a><li><a href='第四周.html'>第四周</a><li><a href='第五周.html'>第五周</a><li><a href='第六周.html'>第六周</a><li><a href='第七周.html'>第七周</a></li></ul><li><a href='BubbleRob tutorial.html'>BubbleRob tutorial</a><ul><li><a href='操作步驟.html'>操作步驟</a></li></ul></nav><section>第六周 << <a href='第六周.html'>Previous</a> <a href='BubbleRob tutorial.html'>Next</a> >> BubbleRob tutorial<br /><h1>第七周</h1>
 <p>本周完成bubbleRob中文手冊撰寫，開始研究手足球機構的程式，下面附本周研究方向鍵移動機器人。</p>
-<p><iframe width="450" height="252" src="//www.youtube.com/embed/AlNfqnUrftA" allowfullscreen="allowfullscreen"></iframe></p><br />第六周 << <a href='第六周.html'>Previous</a> <a href='BubbleRob tutorial.html'>Next</a> >> BubbleRob tutorial</section></div></body></html>
+<p><iframe width="450" height="252" src="//www.youtube.com/embed/AlNfqnUrftA" allowfullscreen="allowfullscreen"></iframe></p>
+<pre class="brush:lua;auto-links:false;toolbar:false" contenteditable="false">function sysCall_threadmain()
+    -- Put some initialization code here:
+    -- Retrieving of some handles and setting of some initial values:
+    steeringLeft=sim.getObjectHandle('nakedCar_steeringLeft')
+    steeringRight=sim.getObjectHandle('nakedCar_steeringRight')
+    motorLeft=sim.getObjectHandle('nakedCar_motorLeft')
+    motorRight=sim.getObjectHandle('nakedCar_motorRight')
+    desiredSteeringAngle=0
+    desiredWheelRotSpeed=0
+    steeringAngleDx=2*math.pi/180
+    wheelRotSpeedDx=20*math.pi/180
+    d=0.755 -- 2*d=distance between left and right wheels
+    l=2.5772 -- l=distance between front and read wheels
+
+    -- Main routine:
+    while sim.getSimulationState()~=sim.simulation_advancing_abouttostop do
+        -- Read the keyboard messages (make sure the focus is on the main window, scene view):
+        message,auxiliaryData=sim.getSimulatorMessage()
+        while message~=-1 do
+            if (message==sim.message_keypress) then
+                if (auxiliaryData[1]==2007) then
+                    -- up key
+                    desiredWheelRotSpeed=desiredWheelRotSpeed+wheelRotSpeedDx
+                end
+                if (auxiliaryData[1]==2008) then
+                    -- down key
+                    desiredWheelRotSpeed=desiredWheelRotSpeed-wheelRotSpeedDx
+                end
+                if (auxiliaryData[1]==2009) then
+                    -- left key
+                    desiredSteeringAngle=desiredSteeringAngle+steeringAngleDx
+                    if (desiredSteeringAngle&gt;45*math.pi/180) then
+                        desiredSteeringAngle=45*math.pi/180
+                    end
+                end
+                if (auxiliaryData[1]==2010) then
+                    -- right key
+                    desiredSteeringAngle=desiredSteeringAngle-steeringAngleDx
+                    if (desiredSteeringAngle&lt;-45*math.pi/180) then
+                        desiredSteeringAngle=-45*math.pi/180
+                    end
+                end
+            end
+            message,auxiliaryData=sim.getSimulatorMessage()
+        end
+
+        -- We handle the front left and right wheel steerings (Ackermann steering):
+        steeringAngleLeft=math.atan(l/(-d+l/math.tan(desiredSteeringAngle)))
+        steeringAngleRight=math.atan(l/(d+l/math.tan(desiredSteeringAngle)))
+        sim.setJointTargetPosition(steeringLeft,steeringAngleLeft)
+        sim.setJointTargetPosition(steeringRight,steeringAngleRight)
+
+        -- We take care of setting the desired wheel rotation speed:
+        sim.setJointTargetVelocity(motorLeft,desiredWheelRotSpeed)
+        sim.setJointTargetVelocity(motorRight,desiredWheelRotSpeed)
+
+        -- Since this script is threaded, don't waste time here:
+        sim.switchThread() -- Resume the script at next simulation loop start
+    end
+end</pre>
+<p></p><br />第六周 << <a href='第六周.html'>Previous</a> <a href='BubbleRob tutorial.html'>Next</a> >> BubbleRob tutorial</section></div></body></html>
