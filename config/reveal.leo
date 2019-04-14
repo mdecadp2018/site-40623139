@@ -21,8 +21,44 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20190414203831.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190414203831.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190414212409.1" a="E"><vh>WEEK</vh>
+<v t="leo.20190414212409.2" a="E"><vh>w1</vh>
+<v t="leo.20190414212409.3"><vh>w1</vh></v>
+</v>
+<v t="leo.20190414212409.4" a="E"><vh>w2</vh>
+<v t="leo.20190414212409.5"><vh>w2</vh></v>
+</v>
+<v t="leo.20190414212409.6" a="E"><vh>w3</vh>
+<v t="leo.20190414212409.7"><vh>w3</vh></v>
+</v>
+</v>
+<v t="leo.20190414212302.1" a="E"><vh>WEEK2</vh>
+<v t="leo.20190414212302.2" a="E"><vh>w4~5</vh>
+<v t="leo.20190414212302.3"><vh>w4~5</vh></v>
+</v>
+<v t="leo.20190414212302.4" a="E"><vh>w6</vh>
+<v t="leo.20190414212302.5"><vh>w6</vh></v>
+</v>
+<v t="leo.20190414212302.6" a="E"><vh>w7</vh>
+<v t="leo.20190414212302.7"><vh>w7</vh></v>
+</v>
+<v t="leo.20190414215031.1" a="E"><vh>w8</vh>
+<v t="leo.20190414215031.2"><vh>w8</vh></v>
+</v>
+</v>
+<v t="leo.20190414220010.1" a="E"><vh>心得</vh>
+<v t="leo.20190414220010.2" a="E"><vh>vrep1</vh>
+<v t="leo.20190414220010.3"><vh>vrep1</vh></v>
+</v>
+<v t="leo.20190414220010.4" a="E"><vh>vrep2</vh>
+<v t="leo.20190414220010.5"><vh>vrep2</vh></v>
+</v>
+<v t="leo.20190414220010.6" a="E"><vh>心得</vh>
+<v t="leo.20190414220010.7" a="M"><vh>心得</vh></v>
+</v>
 </v>
 <v t="leo.20181005101749.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20181005101749.2"><vh>封面投影片內容</vh></v>
@@ -30,7 +66,7 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -127,18 +163,6 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
-
-### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[2018 Fall 分組網誌](./../blog/index.html)
-
-
-</t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -320,15 +344,6 @@ make.start()
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180827201621.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="leo.20181005101749.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -341,6 +356,214 @@ make.start()
 <t tx="leo.20181005101749.2">#MCAD 2A W4網際簡報
 
 *CMSimfly操作
-*Onshape操作</t>
+*Onshape操作
+
+</t>
+<t tx="leo.20190414203831.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190414203831.2">## 電腦輔助設計實習課程簡報
+
+### 虎科大機械設計工程系
+
+&lt;font size="6"&gt;
+### 設計二甲-40623139 許高惟
+&lt;/font&gt;
+[Web page](./../content/index.html)
+
+&lt;a href="https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g2/content/%E7%B0%A1%E4%BB%8B.html"&gt;分組網站&lt;/a&gt;
+
+
+
+</t>
+<t tx="leo.20190414212302.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190414212302.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414212302.3">## Week4~5
+&lt;div style="text-align:left"&gt;
+&lt;font size="6"&gt;
+week4:在上課途中遇到ipv4不能使用的狀況，改用ipv6方式連網，工作中也可能遭遇原先ip被占用的狀況，學習切換不同網路使用才能確保協同作業不被中斷。
+&lt;/font&gt;&lt;/div&gt;
+------------------------------------------------------------------------
+&lt;div style="text-align:left"&gt;
+&lt;font size="6"&gt;
+week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將ungit功能了解更加徹底。
+
+&lt;/font&gt;&lt;/div&gt;</t>
+<t tx="leo.20190414212302.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190414212302.5">## Week6
+&lt;div style="text-align:left"&gt;
+&lt;small&gt;
+本周開始進行BubbleRob Tutorial，同時V-rep更新至3.6.1版本，將3.5.0版本備份後從data目錄下移除，並利用指令在start.bat及stop.bat內新增呼叫V-rep的指令，讓之後作業更快速，能插入隨身碟後馬上開始作業。
+&lt;/small&gt;&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week6.jpg" height="350" width="700"&gt;</t>
+<t tx="leo.20190414212302.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414212302.7">## Week7
+&lt;div style="text-align:left"&gt;
+&lt;small&gt;
+本周完成bubbleRob中文手冊撰寫，開始研究手足球機構的程式，嘗試參考Vrep內建的模型製作方向鍵移動機器人。
+&lt;/small&gt;
+&lt;/div&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AlNfqnUrftA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190414212409.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190414212409.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414212409.3">## Week1
+
+協同產品設計實習，本學期使用上學期用過的github內容來練習。
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week1.jpg" height="300" width="700"&gt;</t>
+<t tx="leo.20190414212409.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190414212409.5">## Week2
+
+本學期採用新的方式，利用隨機分組及互評方式，讓上課內容更具挑戰性，如何利用網路與其餘組員協同作業將成為關鍵。
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week2.jpg" height="350" width="700"&gt;</t>
+<t tx="leo.20190414212409.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414212409.7">## Week3
+
+本周使用程式隨機分組，除了原本班級的同學外也有非本班的學長等，利用github功能建立小組網頁同時建立blog以另外一種方式記錄上課內容。
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week3.jpg" height="350" width="700"&gt;</t>
+<t tx="leo.20190414215031.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414215031.2">## Week8
+&lt;div style="text-align:left"&gt;
+&lt;small&gt;
+第八周嘗試將兩軸分開控制，由於我們是利用加速度來驗算所以在編寫code方面較為複雜，目標為利用按鍵分別控制各軸，達成一次控制一軸且可切換之目標。
+&lt;/small&gt;
+&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/KwcaTin3sd.gif" height="350" width="700"&gt;
+</t>
+<t tx="leo.20190414220010.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190414220010.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414220010.3">## &lt;font size="20"&gt;實習任務一:BubbleRob Tutorial&lt;/font&gt;
+&lt;div style="text-align:left"&gt;
+&lt;font size="5"&gt;
+除了完成bubbleRob外，嘗試將原文手冊翻譯成中文，編寫中間將文中不懂單字查過後再放入文中，希望讓其他人能更加順利
+的完成實習任務。
+&lt;/font&gt;&lt;/div&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/HfK15uAi5U0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+	
+&lt;a href="https://mdecadp2018.github.io/site-40623139/content/%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%A9%9F.html"&gt;bubbleRob操作手冊&lt;/a&gt;
+</t>
+<t tx="leo.20190414220010.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190414220010.5">## 實習任務二:手足球
+
+&lt;div style="text-align:left"&gt;
+&lt;font size="5"&gt;
+實習任務二的手足球從零到有需要從Onshape開始將零件模型先畫好，完成的模型為了計算需要簡化，否則電腦沒辦法計算太多碰撞，程式部分我們嘗試用加速度方式去控制球桿，目前只完成一半，希望之後能順利完成。
+&lt;/font&gt;&lt;/div&gt;
+&lt;a href="https://mdecadp2018.github.io/site-40623139/content/%E7%AC%AC%E4%B8%83%E5%91%A8.html"&gt;測試機器人&lt;/a&gt;
+</t>
+<t tx="leo.20190414220010.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414220010.7">## &lt;font size="20"&gt;心得&lt;/font&gt;
+
+&lt;div style="text-align:left"&gt;
+&lt;font size="6"&gt;
+如果說上學期在Vrep是小試身手，那麼這學期就是從頭重新學習一次，從實習任務一開始操作一次就能將之後用到的東西全部學會，雖然實習任務二的手足球還未完工，但在編寫程式的途中不斷學習到更多新的語法，讓之後要製作的東西都可以吸收過去經驗，更快更好的完成。
+&lt;/font&gt;&lt;/div&gt;</t>
 </tnodes>
 </leo_file>
