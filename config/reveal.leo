@@ -21,10 +21,21 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20190414203831.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190414203831.1"><vh>封面投影片</vh>
 <v t="leo.20190414203831.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190414212409.1" a="E"><vh>WEEK</vh>
+<v t="leo.20190414212409.1" a="E"><vh>上學期</vh>
+<v t="leo.20190414220010.2" a="E"><vh>vrep1</vh>
+<v t="leo.20190414220010.3"><vh>vrep1</vh></v>
+</v>
+<v t="leo.20190414220010.4"><vh>vrep2</vh>
+<v t="leo.20190414220010.5"><vh>vrep2</vh></v>
+</v>
+<v t="leo.20190414220010.1"><vh>心得</vh>
+<v t="leo.20190414220010.6" a="E"><vh>心得</vh>
+<v t="leo.20190414220010.7" a="M"><vh>心得</vh></v>
+</v>
+</v>
 <v t="leo.20190414212409.2" a="E"><vh>w1</vh>
 <v t="leo.20190414212409.3"><vh>w1</vh></v>
 </v>
@@ -34,12 +45,10 @@
 <v t="leo.20190414212409.6" a="E"><vh>w3</vh>
 <v t="leo.20190414212409.7"><vh>w3</vh></v>
 </v>
-</v>
-<v t="leo.20190414212302.1" a="E"><vh>WEEK2</vh>
-<v t="leo.20190414212302.2" a="E"><vh>w4~5</vh>
+<v t="leo.20190414212302.2"><vh>w4~5</vh>
 <v t="leo.20190414212302.3"><vh>w4~5</vh></v>
 </v>
-<v t="leo.20190414212302.4" a="E"><vh>w6</vh>
+<v t="leo.20190414212302.4"><vh>w6</vh>
 <v t="leo.20190414212302.5"><vh>w6</vh></v>
 </v>
 <v t="leo.20190414212302.6" a="E"><vh>w7</vh>
@@ -49,18 +58,38 @@
 <v t="leo.20190414215031.2"><vh>w8</vh></v>
 </v>
 </v>
-<v t="leo.20190414220010.1" a="E"><vh>心得</vh>
-<v t="leo.20190414220010.2" a="E"><vh>vrep1</vh>
-<v t="leo.20190414220010.3"><vh>vrep1</vh></v>
+<v t="leo.20190609191808.1" a="E"><vh>下學期</vh>
+<v t="leo.20190609191808.21" a="E"><vh>下學期開頭</vh>
+<v t="leo.20190609191808.22"><vh>開頭</vh></v>
 </v>
-<v t="leo.20190414220010.4" a="E"><vh>vrep2</vh>
-<v t="leo.20190414220010.5"><vh>vrep2</vh></v>
+<v t="leo.20190609191808.2" a="E"><vh>w10</vh>
+<v t="leo.20190609191808.3"><vh>w10</vh></v>
 </v>
-<v t="leo.20190414220010.6" a="E"><vh>心得</vh>
-<v t="leo.20190414220010.7" a="M"><vh>心得</vh></v>
+<v t="leo.20190609191808.4" a="E"><vh>w11~12</vh>
+<v t="leo.20190609191808.5"><vh>w11~12</vh></v>
+</v>
+<v t="leo.20190609191808.9" a="E"><vh>w13</vh>
+<v t="leo.20190609191808.10"><vh>w13</vh></v>
+</v>
+<v t="leo.20190609191808.11" a="E"><vh>w14</vh>
+<v t="leo.20190609191808.12"><vh>w14</vh></v>
+</v>
+<v t="leo.20190609191808.13" a="E"><vh>w15</vh>
+<v t="leo.20190609191808.14"><vh>w15</vh></v>
+</v>
+<v t="leo.20190609191808.15" a="E"><vh>w16</vh>
+<v t="leo.20190609191808.16"><vh>w16</vh></v>
+</v>
+<v t="leo.20190609191808.17" a="E"><vh>總結</vh>
+<v t="leo.20190609191808.18" a="M"><vh>總結</vh></v>
 </v>
 </v>
-<v t="leo.20181005101749.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190609192043.1" a="E"><vh>心得</vh>
+<v t="leo.20190609192043.2" a="E"><vh>心得</vh>
+<v t="leo.20190609192043.3" a="M"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20181005101749.1"><vh>封面投影片</vh>
 <v t="leo.20181005101749.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
@@ -383,11 +412,6 @@ make.start()
 
 
 </t>
-<t tx="leo.20190414212302.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
 <t tx="leo.20190414212302.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -407,7 +431,9 @@ week4:在上課途中遇到ipv4不能使用的狀況，改用ipv6方式連網，
 &lt;font size="6"&gt;
 week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將ungit功能了解更加徹底。
 
-&lt;/font&gt;&lt;/div&gt;</t>
+&lt;/font&gt;&lt;/div&gt;
+
+</t>
 <t tx="leo.20190414212302.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -424,7 +450,9 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 &lt;small&gt;
 本周開始進行BubbleRob Tutorial，同時V-rep更新至3.6.1版本，將3.5.0版本備份後從data目錄下移除，並利用指令在start.bat及stop.bat內新增呼叫V-rep的指令，讓之後作業更快速，能插入隨身碟後馬上開始作業。
 &lt;/small&gt;&lt;/div&gt;
-&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week6.jpg" height="350" width="700"&gt;</t>
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week6.jpg" height="350" width="700"&gt;
+
+</t>
 <t tx="leo.20190414212302.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -459,7 +487,9 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 <t tx="leo.20190414212409.3">## Week1
 
 協同產品設計實習，本學期使用上學期用過的github內容來練習。
-&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week1.jpg" height="300" width="700"&gt;</t>
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week1.jpg" height="300" width="700"&gt;
+
+</t>
 <t tx="leo.20190414212409.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -475,7 +505,9 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 
 本學期採用新的方式，利用隨機分組及互評方式，讓上課內容更具挑戰性，如何利用網路與其餘組員協同作業將成為關鍵。
 
-&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week2.jpg" height="350" width="700"&gt;</t>
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week2.jpg" height="350" width="700"&gt;
+
+</t>
 <t tx="leo.20190414212409.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -489,7 +521,9 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 
 本周使用程式隨機分組，除了原本班級的同學外也有非本班的學長等，利用github功能建立小組網頁同時建立blog以另外一種方式記錄上課內容。
 
-&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week3.jpg" height="350" width="700"&gt;</t>
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/week3.jpg" height="350" width="700"&gt;
+
+</t>
 <t tx="leo.20190414215031.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -564,6 +598,183 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 &lt;div style="text-align:left"&gt;
 &lt;font size="6"&gt;
 如果說上學期在Vrep是小試身手，那麼這學期就是從頭重新學習一次，從實習任務一開始操作一次就能將之後用到的東西全部學會，雖然實習任務二的手足球還未完工，但在編寫程式的途中不斷學習到更多新的語法，讓之後要製作的東西都可以吸收過去經驗，更快更好的完成。
+&lt;/font&gt;&lt;/div&gt;
+
+</t>
+<t tx="leo.20190609191808.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609191808.10">## &lt;font size="20"&gt;Week13&lt;/font&gt;
+
+&lt;div style="text-align:mid"&gt;
+&lt;font size="5"&gt;
+本周將其他組員分工之外殼及簡化件組合測試。
+附圖為組合完成
+
+&lt;/font&gt;&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/football%20side.png" height="400" width="700"&gt;
+</t>
+<t tx="leo.20190609191808.11">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609191808.12">## &lt;font size="20"&gt;Week14&lt;/font&gt;
+
+&lt;div style="text-align:mid"&gt;
+&lt;font size="5"&gt;
+本周經過討論後，發現球員高度無法擊球，所以在高度部分進行修正。
+
+&lt;/font&gt;&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/football%20side2.png" height="400" width="700"&gt;</t>
+<t tx="leo.20190609191808.13">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609191808.14">## &lt;font size="20"&gt;Week15&lt;/font&gt;
+
+&lt;div style="text-align:mid"&gt;
+&lt;font size="5"&gt;
+將目前為止各版本更新至網站上，持續優化Vrep在模擬時的作動。
+
+&lt;/font&gt;&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/version3.png" height="400" width="700"&gt;
+</t>
+<t tx="leo.20190609191808.15">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609191808.16">## &lt;font size="20"&gt;Week16&lt;/font&gt;
+
+&lt;div style="text-align:mid"&gt;
+&lt;font size="5"&gt;
+16周進行最後一次修正，將軸修正成最新版本。
+
+&lt;/font&gt;&lt;/div&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AZeFl7NTu3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190609191808.17">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609191808.18">## &lt;font size="20"&gt;總結&lt;/font&gt;
+
+&lt;div style="text-align:justify"&gt;
+&lt;font size="5"&gt;
+後半學期大部分都在跟組員協同修正手足球的簡化件，透過討論後才了解碰撞設定及簡化件在組合時碰到的問題，完成這項任務讓我學習到不少Vrep在分割圖形及降低演算負擔的處理方式。
+
 &lt;/font&gt;&lt;/div&gt;</t>
+<t tx="leo.20190609191808.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609191808.21">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609191808.22">## &lt;font size="20"&gt;實習任務二&lt;/font&gt;
+&lt;div style="text-align:justify"&gt;
+&lt;font size="10"&gt;
+期中過後，對Vrep功能也逐漸熟悉，進入完成手足球的部分。
+&lt;/font&gt;&lt;/div&gt;
+
+</t>
+<t tx="leo.20190609191808.3">## &lt;font size="20"&gt;Week10&lt;/font&gt;
+&lt;div style="text-align:left"&gt;
+&lt;font size="5"&gt;
+本周使用vitrualbox建立虛擬主機，目標為不使用網路進行協同，目前主機設定已經完成了，nginx部分還在研究，下周開始要完成離線倉儲，透過此倉儲進行小組活動。
+&lt;/font&gt;&lt;/div&gt;
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/vitrulbox.png" height="300" width="700"&gt;
+
+</t>
+<t tx="leo.20190609191808.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190609191808.5">## &lt;font size="20"&gt;Week11~12&lt;/font&gt;
+
+&lt;div style="text-align:left"&gt;
+&lt;font size="5"&gt;
+開始製作手足球簡化部分，將onShape上其他組員畫完的圖透過Vrep功能製作成方便模擬的零件，Vrep功能雖有限，但生成一些簡單圖形也算方便了。
+
+&lt;/font&gt;&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/sample%20ground.png" height="400" width="700"&gt;
+
+</t>
+<t tx="leo.20190609191808.9">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609192043.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609192043.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609192043.3">## &lt;font size="20"&gt;筆記&lt;/font&gt;
+
+&lt;div style="text-align:left"&gt;
+&lt;font size="6"&gt;
+
+&lt;/font&gt;&lt;/div&gt;
+
+</t>
 </tnodes>
 </leo_file>
