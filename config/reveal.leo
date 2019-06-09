@@ -774,7 +774,7 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 &lt;font size="6"&gt;
 
 &lt;/font&gt;&lt;/div&gt;
-&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/note2.1.jpg" height="400" width="700"&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/note3.jpg" height="400" width="700"&gt;
 
 </t>
 </tnodes>
