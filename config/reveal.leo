@@ -84,9 +84,9 @@
 <v t="leo.20190609191808.18" a="M"><vh>總結</vh></v>
 </v>
 </v>
-<v t="leo.20190609192043.1" a="E"><vh>心得</vh>
-<v t="leo.20190609192043.2" a="E"><vh>心得</vh>
-<v t="leo.20190609192043.3" a="M"><vh>心得</vh></v>
+<v t="leo.20190609192043.1" a="E"><vh>筆記</vh>
+<v t="leo.20190609192043.2" a="E"><vh>筆記</vh>
+<v t="leo.20190609192043.3" a="M"><vh>筆記</vh></v>
 </v>
 </v>
 <v t="leo.20181005101749.1"><vh>封面投影片</vh>
@@ -774,6 +774,7 @@ week5:與組員分工完成task1內要求課題，透過編寫ungit手冊，將u
 &lt;font size="6"&gt;
 
 &lt;/font&gt;&lt;/div&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623139/gh-pages/images/note2.1.jpg" height="400" width="700"&gt;
 
 </t>
 </tnodes>
